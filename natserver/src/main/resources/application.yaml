@@ -1,0 +1,19 @@
+spring:
+  mvc:
+    hiddenmethod:
+      filter:
+        enabled: true
+  main:
+    allow-circular-references: true
+  datasource:
+    url: jdbc:mysql://localhost:3306/nat?serverTimezone=GMT%2B8&allowPublicKeyRetrieval=true&useSSL=false
+    username: nat
+    password: f7m5re6i43p2hcJx
+    driver-class-name: com.mysql.cj.jdbc.Driver
+server:
+  port: 8888
+WeChat: #微信公众号相关配置 用户端需要在微信内打开 此参数必须配置
+  appid: wxf44ef71e1634358a
+  secret: 765af2d2a9635c124bbcf578f717fbc1
+
+
